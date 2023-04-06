@@ -20,7 +20,7 @@ exports.createPages = async ({ actions }) => {
     toPath: `/`,
     statusCode: 451,
     conditions: {
-      country: `sd`
+      country: `sy`
     }
   })
 }
