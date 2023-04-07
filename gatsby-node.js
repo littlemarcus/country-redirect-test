@@ -16,11 +16,11 @@ exports.createPages = async ({ actions }) => {
     defer: true,
   }),
   createRedirect({
-    fromPath: `/page-2`,
+    fromPath: `/test`,
     toPath: `/`,
-    statusCode: 451,
-    conditions: {
-      country: `cu`
-    }
+    // statusCode: 451,
+    // conditions: {
+    //   country: `cu`
+    // }
   })
 }
